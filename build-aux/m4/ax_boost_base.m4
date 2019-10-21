@@ -82,6 +82,10 @@ AC_SUBST(BOOST_LDFLAGS)
 ])
 
 
+
+
+
+
 # convert a version string in $2 to numeric and affect to polymorphic var $1
 AC_DEFUN([_AX_BOOST_BASE_TONUMERICVERSION],[
   AS_IF([test "x$2" = "x"],[_AX_BOOST_BASE_TONUMERICVERSION_req="1.20.0"],[_AX_BOOST_BASE_TONUMERICVERSION_req="$2"])
